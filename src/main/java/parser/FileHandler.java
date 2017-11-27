@@ -32,5 +32,7 @@ public class FileHandler {
         return fileNames;
     }
 
+    public Set<File> getAllFiles() { return filesFromRoot; }
+
     public int getNumberOfFiles() { return numberOfFiles; }
 }
